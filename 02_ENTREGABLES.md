@@ -169,14 +169,17 @@ Copiar del enunciado NO cuenta como respuesta.)*
 
 1. **Guarda tu entrada** con el nombre correcto en `00_Apuntes/Trimestre_1/B0_Curso_Paquetes/`.
 2. **Sube el vídeo** a tu playlist del curso y **pega su enlace dentro de la entrada**.
-3. **Sube la entrada a tu repositorio**, desde **Git Bash**:
-   ```bash
-   cd ~/Boveda_SOR/00_Apuntes/Trimestre_1
-   git add B0_Curso_Paquetes/
-   git commit -m "Curso Paquetes: EJ-02-01-01 terminado"
-   git push
-   ```
+3. **Sube la entrada a tu repositorio**, desde **Git Bash**, con los cuatro comandos de aquí abajo.
 4. **Entrega el enlace** a tu repositorio por la tarea de Teams.
+
+**Los comandos del paso 3:**
+
+```bash
+cd ~/Boveda_SOR/00_Apuntes/Trimestre_1
+git add B0_Curso_Paquetes/
+git commit -m "Curso Paquetes: EJ-02-01-01 terminado"
+git push
+```
 
 > [!warning] ⚠️ Un `commit` sin `push` no ha salido de tu ordenador
 > Es el fallo más habitual de todo el curso: das el trabajo por entregado, y sigue solo en tu disco. **Si el portátil se rompe esta noche, no existe.**
